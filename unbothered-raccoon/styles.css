@@ -339,6 +339,7 @@ h1 em {
 .page-mat { padding: clamp(12px, 2vw, 25px); background: #f9f3e6; box-shadow: 0 22px 45px rgba(14,24,14,.26); }
 .page-mat img { width: 100%; background: #fff; }
 .preview-card figcaption { padding: 16px 4px 0; color: #e7e0d0; font-family: Georgia, serif; font-size: .9rem; font-style: italic; }
+.preview-kind { display: block; margin-top: 6px; font-family: Arial, sans-serif; font-size: .65rem; font-style: normal; letter-spacing: .12em; text-transform: uppercase; }
 
 .pause { display: grid; grid-template-columns: 1fr 1fr; min-height: 720px; background: #e8bda4; }
 .pause-art { min-height: 600px; overflow: hidden; background: var(--paper); }
