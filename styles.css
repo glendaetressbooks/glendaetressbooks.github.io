@@ -80,7 +80,7 @@ h3 { font-size: 1.45rem; }
 .section-heading { max-width: 720px; margin: 0 auto 54px; text-align: center; }
 .section-heading > p:last-child { max-width: 580px; margin: 0 auto; }
 .book-grid { max-width: 1380px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px; }
-.book-card { grid-column: span 2; display: flex; flex-direction: column; background: var(--paper); border: 1px solid rgba(111,29,22,.1); border-radius: 18px; overflow: hidden; box-shadow: 0 10px 30px rgba(59,36,27,.08); transition: transform .25s ease, box-shadow .25s ease; }
+.book-card { grid-column: span 3; display: flex; flex-direction: column; background: var(--paper); border: 1px solid rgba(111,29,22,.1); border-radius: 18px; overflow: hidden; box-shadow: 0 10px 30px rgba(59,36,27,.08); transition: transform .25s ease, box-shadow .25s ease; }
 .book-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
 .book-card.featured { grid-column: span 3; display: grid; grid-template-columns: minmax(220px, .9fr) minmax(0, 1.1fr); border-color: rgba(169,71,46,.3); background: linear-gradient(135deg, var(--paper), #fff5df); box-shadow: var(--shadow); }
 .book-card.featured .book-cover-wrap { min-height: 390px; aspect-ratio: auto; }
